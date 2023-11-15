@@ -1,4 +1,58 @@
-input {
-display:block;
-margin: 0 auto 1 rem auto
-}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    background-color: #24b829;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  body {
+    background-color: rgb(80, 238, 255);
+    background-image: url('./image-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1550px 900px;
+  }
+/* Styles for gender options */
+.gender-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .gender-options label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .gender-options input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+
+  .gender-options input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: blue; /* Change the color as needed */
+    font-size: larger;
+  }
+  .gender-options{
+    text-decoration-color: #f1e8e8;
+  }
+  
